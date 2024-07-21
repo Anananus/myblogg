@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог Талайгуль - Веб и C++ Разработчик</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1b1b2f;
+            color: #eaeaea;
+        }
+        header {
+            background-color: #162447;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1f4068;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #e43f5a;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .content {
+            width: 75%;
+            background-color: #162447;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        .post {
+            margin-bottom: 20px;
+        }
+        .post img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .post h2 {
+            margin-top: 0;
+            color: #e43f5a;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #1f4068;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Блог Талайгуль</h1>
+    <p>Веб и C++ Разработчик</p>
+</header>
+
+<nav>
+    <a href="#about">Обо мне</a>
+    <a href="#projects">Проекты</a>
+    <a href="#blog">Блог</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="container">
+    <div class="content">
+        <section id="about" class="post">
+            <h2>Обо мне</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbL9UZ0onlOwK836Jqeh6S6Y6sykhQx6fP4w&s" alt="Талайгуль">
+            <p>Привет! Меня зовут Талайгуль, я начинающий веб и C++ разработчик. Мне нравится создавать красивые и функциональные веб-сайты и работать с языком программирования C++. Моя цель - постоянно совершенствоваться и развивать свои навыки в программировании, чтобы создавать высококачественные и эффективные приложения.</p>
+            <p>Я обладаю следующими навыками:</p>
+            <ul>
+                <li>HTML & CSS: создание адаптивных и кроссбраузерных веб-страниц.</li>
+                <li>JavaScript: написание интерактивных веб-приложений.</li>
+                <li>C++: решение сложных алгоритмических задач, разработка программных приложений.</li>
+                <li>Git: работа с системами контроля версий.</li>
+                <li>Bootstrap: создание адаптивных дизайнов с использованием фреймворка.</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="post">
+            <h2>Чем занимаюсь</h2>
+            <img src="https://codeforces.com/predownloaded/09/d5/09d515849719f4bf8642ee12bc840cab1f4c5d7d.png" alt="Чем занимаюсь">
+            <p>Я часто занимаюсь на платформе codeforces прорешивая задачи и контесты для улучшения моих навыков.</p>
+        </section>
+
+        <section id="contact" class="post">
+            <h2>Контакты</h2>
+            <p>Вы можете связаться со мной по электронной почте: <a href="mailto:talaigulkenzhebaeva1@gmail.com" style="color: #e43f5a;">your-email@example.com</a></p>
+        </section>
+    </div>
+</div>
+
+<footer>
+    <!-- Footer content can go here if needed -->
+</footer>
+
+</body>
+</html>
